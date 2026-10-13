@@ -40,3 +40,28 @@
     color: #006A50;
     font-weight: 400;
  }
+ /* box styles */
+.box-item{
+    opacity: 100%;
+    background-color:#FFFFFF ;
+    color: #0E0E0E;
+    width: 302px;
+    height: 244px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px 0 200px;
+    margin-top: 12px;
+    padding: 0 auto;
+}
+.box-title{
+    text-align: justify;
+    margin: 0 200px 0 200px;
+    padding-top: 19px;
+    font-weight: bolder;
+}
